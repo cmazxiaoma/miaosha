@@ -31,6 +31,11 @@ public class ModelAttributeController extends BaseController {
     }
 
     @ModelAttribute
+    public Object object() {
+        return "1";
+    }
+
+    @ModelAttribute
     public String baseTest() {
         return "1";
     }
