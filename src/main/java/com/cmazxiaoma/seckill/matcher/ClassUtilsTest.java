@@ -31,5 +31,7 @@ public class ClassUtilsTest {
         System.out.println("typeName:" + test.getClass().getTypeName());
 
         System.out.println(Object.class.isInstance(test));
+
+        System.out.println(org.springframework.util.ClassUtils.getShortNameAsProperty(ClassUtilsTest.class));
     }
 }
