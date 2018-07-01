@@ -12,7 +12,8 @@ import java.util.Map;
 public class MapTest {
 
     public static void main(String[] args) {
-        getMap();
+        Map<String, String> map = getMap();
+        System.out.println(map.get("key"));
     }
 
     public static Map<String, String> getMap() {
@@ -23,15 +24,16 @@ public class MapTest {
         try {
             map.put("key", "try");
             System.out.println("try");
+            Integer integer = Integer.parseInt(null);
+            return map;
         } catch (Exception e) {
             map.put("key", "catch");
             System.out.println("catch");
+            return map;
         } finally {
             map.put("key", "finally");
             System.out.println("finally");
             map = null;
         }
-
-        return map;
     }
 }
