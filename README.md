@@ -1,4 +1,4 @@
-# jianshu blog url: https://www.jianshu.com/p/edd64fe6866a
+### jianshu blog url: https://www.jianshu.com/p/edd64fe6866a
 
 ## 抽离出商城业务：商品列表、商品详情、商品秒杀
 
