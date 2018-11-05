@@ -1,3 +1,5 @@
+### jianshu blog url: https://www.jianshu.com/p/edd64fe6866a
+
 ## 抽离出商城业务：商品列表、商品详情、商品秒杀
 
 1.我们大致优化的点是秒杀接口：redis预减库存，减少数据库访问；内存标记较少redis的访问；rabbitmq队列缓冲，异步下单，增强用户体验。那么具体步骤如下。
