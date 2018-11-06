@@ -11,6 +11,7 @@ public class SeckillApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }

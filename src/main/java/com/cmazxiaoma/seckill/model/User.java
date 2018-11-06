@@ -1,4 +1,4 @@
-package com.cmazxiaoma.seckill.domain;
+package com.cmazxiaoma.seckill.model;
 
 import lombok.Data;
 

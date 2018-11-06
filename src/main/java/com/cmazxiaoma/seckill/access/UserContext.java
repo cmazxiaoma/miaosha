@@ -1,7 +1,6 @@
 package com.cmazxiaoma.seckill.access;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
-import com.cmazxiaoma.seckill.service.MiaoshaUserService;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 
 /**
  * @author cmazxiaoma

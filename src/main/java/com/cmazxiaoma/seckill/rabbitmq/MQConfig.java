@@ -25,6 +25,8 @@ public class MQConfig {
     public static final String TOPIC_EXCHANGE = "topicExchange";
     public static final String FANOUT_EXCHANGE = "fanoutExchange";
     public static final String HEADERS_EXCHANGE = "headersExchange";
+    public static final String ORDER_QUEUE = "order.queue";
+    public static final String ORDER_DIRECT_EXCAHNGE = "order_direct_exchange";
 
     /**
      * Direct模式
@@ -40,6 +42,24 @@ public class MQConfig {
         return new Queue(MQConfig.MIAOSHA_QUEUE, true);
     }
 
+    @Bean
+    public Queue orderQueue() {
+        return new Queue(MQConfig.ORDER_QUEUE, true);
+    }
+
+    @Bean
+    public DirectExchange orderDirectExchange() {
+
+        return new DirectExchange(ORDER_DIRECT_EXCAHNGE);
+    }
+
+    @Bean
+    public Binding orderBingding() {
+        return BindingBuilder
+                .bind(orderQueue())
+                .to(orderDirectExchange())
+                .withQueueName();
+    }
     /**
      * Topic模式
      * @return

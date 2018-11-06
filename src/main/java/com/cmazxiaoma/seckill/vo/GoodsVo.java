@@ -1,6 +1,6 @@
 package com.cmazxiaoma.seckill.vo;
 
-import com.cmazxiaoma.seckill.domain.Goods;
+import com.cmazxiaoma.seckill.model.Goods;
 import lombok.Data;
 
 import java.util.Date;

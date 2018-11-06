@@ -2,7 +2,7 @@ package com.cmazxiaoma.seckill.util;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 
 import java.io.*;
 import java.net.HttpURLConnection;

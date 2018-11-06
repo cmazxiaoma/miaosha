@@ -1,6 +1,6 @@
 package com.cmazxiaoma.seckill.controller;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import com.cmazxiaoma.seckill.redis.GoodsKey;
 import com.cmazxiaoma.seckill.redis.RedisService;
 import com.cmazxiaoma.seckill.result.Result;
@@ -11,17 +11,14 @@ import com.cmazxiaoma.seckill.vo.GoodsVo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
-import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
 import org.thymeleaf.spring4.context.SpringWebContext;
 import org.thymeleaf.spring4.view.ThymeleafViewResolver;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 /**

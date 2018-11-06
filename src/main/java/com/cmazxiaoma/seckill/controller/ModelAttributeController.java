@@ -1,6 +1,6 @@
 package com.cmazxiaoma.seckill.controller;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;

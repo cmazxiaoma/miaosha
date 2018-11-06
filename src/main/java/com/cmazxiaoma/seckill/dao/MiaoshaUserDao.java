@@ -1,7 +1,7 @@
 package com.cmazxiaoma.seckill.dao;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
-import org.apache.ibatis.annotations.Mapper;
+import com.cmazxiaoma.seckill.core.Mapper;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -12,7 +12,6 @@ import org.apache.ibatis.annotations.Update;
  * @Description: TODO
  * @date 2018/5/29 10:38
  */
-@Mapper
 public interface MiaoshaUserDao {
 
     @Select(

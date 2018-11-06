@@ -1,6 +1,6 @@
 package com.cmazxiaoma.seckill.controller;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import com.cmazxiaoma.seckill.redis.RedisService;
 import com.cmazxiaoma.seckill.result.Result;
 import com.cmazxiaoma.seckill.service.MiaoshaUserService;

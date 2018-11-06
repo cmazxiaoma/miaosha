@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cmazxiaoma.seckill.cap.dao.BrokerMessageLogMapper">
+
+  <resultMap id="BaseResultMap" type="com.cmazxiaoma.seckill.cap.model.BrokerMessageLog" autoMapping="true">
+  </resultMap>
+
+  <select id="listStatusAndTimeoutMessage" resultMap="BaseResultMap">
+    <![CDATA[
+          select message_id, message, try_count, status, next_retry, create_time, update_time
+              from tbl_broker_message_log bml
+              where status = '0'
+              and next_retry <= sysdate()
+          ]]>
+  </select>
+
+  <update id="updateReSendMessage">
+    update tbl_broker_message_log bml
+    set bml.try_count = bml.try_count + 1,
+    bml.update_time = #{updateTime, jdbcType=TIMESTAMP}
+    where bml.message_id = #{messageId,jdbcType=VARCHAR}
+  </update>
+
+  <update id="updateMessageLogStatus">
+    update tbl_broker_message_log bml
+    set bml.status = #{status,jdbcType=VARCHAR},
+    bml.update_time = #{updateTime, jdbcType=TIMESTAMP}
+    where bml.message_id = #{messageId,jdbcType=VARCHAR}
+  </update>
+
+</mapper>

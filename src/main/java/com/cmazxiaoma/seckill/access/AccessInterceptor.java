@@ -1,7 +1,7 @@
 package com.cmazxiaoma.seckill.access;
 
 import com.alibaba.fastjson.JSON;
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import com.cmazxiaoma.seckill.redis.AccessKey;
 import com.cmazxiaoma.seckill.redis.RedisService;
 import com.cmazxiaoma.seckill.result.CodeMsg;

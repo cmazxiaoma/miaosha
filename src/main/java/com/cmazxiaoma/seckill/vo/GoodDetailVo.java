@@ -1,6 +1,6 @@
 package com.cmazxiaoma.seckill.vo;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import lombok.Data;
 
 /**

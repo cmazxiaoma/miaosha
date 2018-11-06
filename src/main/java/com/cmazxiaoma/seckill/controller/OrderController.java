@@ -1,7 +1,7 @@
 package com.cmazxiaoma.seckill.controller;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
-import com.cmazxiaoma.seckill.domain.OrderInfo;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.OrderInfo;
 import com.cmazxiaoma.seckill.redis.RedisService;
 import com.cmazxiaoma.seckill.result.CodeMsg;
 import com.cmazxiaoma.seckill.result.Result;

@@ -16,9 +16,9 @@ import java.util.Date;
 @Component
 public class TestTask {
 
-    @Scheduled(cron = "4-40 * * * * ?")
-    public void reportCurrentTime() {
-        System.out.println("现在时间:" + DateFormatUtils.format(new Date(),
-                "yyyy-MM-dd HH:mm:ss"));
-    }
+//    @Scheduled(cron = "4-40 * * * * ?")
+//    public void reportCurrentTime() {
+//        System.out.println("现在时间:" + DateFormatUtils.format(new Date(),
+//                "yyyy-MM-dd HH:mm:ss"));
+//    }
 }

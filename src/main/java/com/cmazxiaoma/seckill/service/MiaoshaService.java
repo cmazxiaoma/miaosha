@@ -1,8 +1,8 @@
 package com.cmazxiaoma.seckill.service;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaOrder;
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
-import com.cmazxiaoma.seckill.domain.OrderInfo;
+import com.cmazxiaoma.seckill.model.MiaoshaOrder;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.OrderInfo;
 import com.cmazxiaoma.seckill.redis.MiaoshaKey;
 import com.cmazxiaoma.seckill.redis.RedisService;
 import com.cmazxiaoma.seckill.util.MD5Util;

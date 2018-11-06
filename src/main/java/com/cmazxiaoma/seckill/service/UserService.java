@@ -1,7 +1,7 @@
 package com.cmazxiaoma.seckill.service;
 
 import com.cmazxiaoma.seckill.dao.UserDao;
-import com.cmazxiaoma.seckill.domain.User;
+import com.cmazxiaoma.seckill.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

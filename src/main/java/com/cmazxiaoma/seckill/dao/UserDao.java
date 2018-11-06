@@ -1,6 +1,6 @@
 package com.cmazxiaoma.seckill.dao;
 
-import com.cmazxiaoma.seckill.domain.User;
+import com.cmazxiaoma.seckill.model.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -12,7 +12,6 @@ import org.apache.ibatis.annotations.Select;
  * @Description: TODO
  * @date 2018/5/29 10:39
  */
-@Mapper
 public interface UserDao {
 
     @Select(

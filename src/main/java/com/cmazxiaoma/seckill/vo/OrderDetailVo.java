@@ -1,6 +1,6 @@
 package com.cmazxiaoma.seckill.vo;
 
-import com.cmazxiaoma.seckill.domain.OrderInfo;
+import com.cmazxiaoma.seckill.model.OrderInfo;
 import lombok.Data;
 
 /**

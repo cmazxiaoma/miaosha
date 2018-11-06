@@ -1,8 +1,8 @@
 package com.cmazxiaoma.seckill.controller;
 
 import com.cmazxiaoma.seckill.access.AccessLimit;
-import com.cmazxiaoma.seckill.domain.MiaoshaOrder;
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaOrder;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import com.cmazxiaoma.seckill.rabbitmq.MQSender;
 import com.cmazxiaoma.seckill.rabbitmq.MiaoshaMessage;
 import com.cmazxiaoma.seckill.redis.GoodsKey;

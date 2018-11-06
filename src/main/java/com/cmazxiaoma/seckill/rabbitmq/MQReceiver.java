@@ -1,7 +1,7 @@
 package com.cmazxiaoma.seckill.rabbitmq;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaOrder;
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaOrder;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import com.cmazxiaoma.seckill.redis.RedisService;
 import com.cmazxiaoma.seckill.service.GoodsService;
 import com.cmazxiaoma.seckill.service.MiaoshaService;

@@ -1,8 +1,9 @@
 package com.cmazxiaoma.seckill.dao;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaGoods;
+import com.cmazxiaoma.seckill.core.Mapper;
+import com.cmazxiaoma.seckill.model.Goods;
+import com.cmazxiaoma.seckill.model.MiaoshaGoods;
 import com.cmazxiaoma.seckill.vo.GoodsVo;
-import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
@@ -15,7 +16,6 @@ import java.util.List;
  * @Description: TODO
  * @date 2018/5/29 10:38
  */
-@Mapper
 public interface GoodsDao {
 
     @Select(

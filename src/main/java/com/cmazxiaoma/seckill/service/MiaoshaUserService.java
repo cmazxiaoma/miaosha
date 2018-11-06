@@ -1,7 +1,7 @@
 package com.cmazxiaoma.seckill.service;
 
 import com.cmazxiaoma.seckill.dao.MiaoshaUserDao;
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
+import com.cmazxiaoma.seckill.model.MiaoshaUser;
 import com.cmazxiaoma.seckill.exception.GlobalException;
 import com.cmazxiaoma.seckill.redis.MiaoshaUserKey;
 import com.cmazxiaoma.seckill.redis.RedisService;

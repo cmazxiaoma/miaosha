@@ -1,8 +1,7 @@
 package com.cmazxiaoma.seckill.dao;
 
-import com.cmazxiaoma.seckill.domain.MiaoshaOrder;
-import com.cmazxiaoma.seckill.domain.MiaoshaUser;
-import com.cmazxiaoma.seckill.domain.OrderInfo;
+import com.cmazxiaoma.seckill.model.MiaoshaOrder;
+import com.cmazxiaoma.seckill.model.OrderInfo;
 import org.apache.ibatis.annotations.*;
 
 /**
@@ -11,7 +10,6 @@ import org.apache.ibatis.annotations.*;
  * @Description: TODO
  * @date 2018/5/29 10:38
  */
-@Mapper
 public interface OrderDao {
 
     @Select("select * from miaosha_order where user_id = #{userId} and goods_id = #{goodsId}")

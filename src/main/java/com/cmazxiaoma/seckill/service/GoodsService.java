@@ -1,8 +1,7 @@
 package com.cmazxiaoma.seckill.service;
 
 import com.cmazxiaoma.seckill.dao.GoodsDao;
-import com.cmazxiaoma.seckill.domain.Goods;
-import com.cmazxiaoma.seckill.domain.MiaoshaGoods;
+import com.cmazxiaoma.seckill.model.MiaoshaGoods;
 import com.cmazxiaoma.seckill.vo.GoodsVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
