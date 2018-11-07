@@ -7,7 +7,7 @@
 
   <select id="listStatusAndTimeoutMessage" resultMap="BaseResultMap">
     <![CDATA[
-          select message_id, message, try_count, status, next_retry, create_time, update_time
+          select *
               from tbl_broker_message_log bml
               where status = '0'
               and next_retry <= sysdate()

@@ -2,9 +2,7 @@ package com.cmazxiaoma.seckill.cap.model;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
 
 /**
@@ -19,6 +17,7 @@ public class BrokerMessageLog {
 
     @Id
     @Column(name = "message_id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String messageId;
 
     @Column(name = "message")
